@@ -22,7 +22,6 @@ public class PlayerController : MonoBehaviour
         left,
         middle,
         right,
-        
     }
 
     
@@ -31,7 +30,6 @@ public class PlayerController : MonoBehaviour
     {
         rig = GetComponent<Rigidbody>();
         currentState = PositionState.middle;
-        
         
     }
 
