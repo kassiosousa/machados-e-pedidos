@@ -9,7 +9,17 @@ ModelImporter:
   - first:
       74: 5862543501114407046
     second: Armature|Armature|Take 001|BaseLayer
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black
+    second: {fileID: 2100000, guid: ba94e085072cea441a91301fce6cbe2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xadrez
+    second: {fileID: 2100000, guid: 53c726c1f4792ec428608c0cbaef4825, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
