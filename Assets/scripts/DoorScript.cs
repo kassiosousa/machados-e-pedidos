@@ -14,10 +14,31 @@ public class DoorScript : MonoBehaviour
     // Tag da area do machado = AxeArea
     // Tag da porta = Door
 
-    // Start is called before the first frame update
+    
+
+    // lista de cores
+    public Color corPadrao = Color.white;
+    public Color corAguardando = Color.yellow;
+    public Color CorPronto = Color.blue;
+    public Color corEntregue = Color.green;
+
+    [Range(0,1)]
+    // Propabilidade de interação da porta(porcentagem entre 0/1)
+    public float InteractionPossibity;
+    // flag/ utilizado para saber se é interativo ou não
+    private bool isInteractable;
+    // flag usada para saber se pode receber o pedido
+    public bool Receving = false;
+
+ 
+  
+    // Variavel responsavel por cetar o objeto
+    Material materialObjeto;
+
     void Start()
     {
-        
+       materialObjeto = GetComponent<MeshRenderer>().material;
+       
     }
 
     // Update is called once per frame
@@ -26,4 +47,40 @@ public class DoorScript : MonoBehaviour
         
     }
 
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.tag == "AxeArea" && isInteractable)
+        {
+            //Debug.Log("Trocou de cor");
+            
+            materialObjeto.color = CorPronto;
+            Receving = true;
+
+        }
+    }
+
+    public void ResetDoor()
+    {
+        
+        float chance = Random.Range(0f, 1f);
+       // print(chance);
+        if(chance < InteractionPossibity)
+        { 
+            isInteractable = true;
+            materialObjeto.color = corAguardando;
+        } else
+        {
+            isInteractable = false;
+            materialObjeto.color = corPadrao;
+        }
+        Receving = false;
+    }
+
+    public void CheckDelivery()
+    {
+        if( Receving == true)
+        {
+            materialObjeto.color = corEntregue;
+        }
+    }
 }

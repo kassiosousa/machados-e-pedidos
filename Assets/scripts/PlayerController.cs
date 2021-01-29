@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class PlayerController : MonoBehaviour
 
     private bool isMoving = false;
     private Vector3 destination;
+
+    public UnityEvent OnJump;
 
     // responsavel por guardar o estado atual
     private PositionState currentState;
@@ -87,6 +90,12 @@ public class PlayerController : MonoBehaviour
             {
                 isMoving = false;
             }
+        }
+
+
+        if(Input.GetButtonDown("Jump"))
+        {
+            OnJump.Invoke();
         }
     }
 
