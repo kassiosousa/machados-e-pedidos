@@ -28,7 +28,7 @@ public class DoorScript : MonoBehaviour
     // flag/ utilizado para saber se é interativo ou não
     private bool isInteractable;
     // flag usada para saber se pode receber o pedido
-    public bool Receving = false;
+    private bool Receving = false;
 
  
   

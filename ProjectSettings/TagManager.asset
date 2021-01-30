@@ -6,6 +6,8 @@ TagManager:
   tags:
   - AxeArea
   - Door
+  - screenshake
+  - obstaculo
   layers:
   - Default
   - TransparentFX
