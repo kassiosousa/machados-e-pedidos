@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3075833673248375708}
   - component: {fileID: 4725794990025702219}
-  - component: {fileID: 1654798297192056736}
   m_Layer: 0
   m_Name: AxeArea
   m_TagString: AxeArea
@@ -25,7 +24,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7946806307758375466}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.3330574, y: 2.9740682, z: 11.246485}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -43,17 +42,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 31.685099, y: 9.199532, z: 6.755518}
-  m_Center: {x: -4.130643, y: -4.099766, z: -2.877759}
---- !u!114 &1654798297192056736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7946806307758375466}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Size: {x: 47.08086, y: 7.2313194, z: 12.241226}
+  m_Center: {x: 3.567236, y: 1.1119785, z: -0.13490486}

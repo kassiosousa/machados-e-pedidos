@@ -38,7 +38,7 @@ public class DoorScript : MonoBehaviour
     void Start()
     {
        materialObjeto = GetComponent<MeshRenderer>().material;
-       
+       ResetDoor();
     }
 
     // Update is called once per frame
@@ -51,8 +51,8 @@ public class DoorScript : MonoBehaviour
     {
         if (collision.tag == "AxeArea" && isInteractable)
         {
-            //Debug.Log("Trocou de cor");
-            
+            Debug.Log("Trocou de cor");
+
             materialObjeto.color = CorPronto;
             Receving = true;
 
