@@ -14,7 +14,8 @@ public class PlayerController : MonoBehaviour
     private bool isMoving = false;
     private Vector3 destination;
 
-    public UnityEvent OnJump;
+    public UnityEvent OnThrowLeft;
+    public UnityEvent OnThrowRight;
 
     // responsavel por guardar o estado atual
     private PositionState currentState;
@@ -59,7 +60,7 @@ public class PlayerController : MonoBehaviour
                     break;
             }
             //transform.position = new Vector3(positions[(int)currentState], 0, 0);
-            MovetoLine(new Vector3(positions[(int)currentState], 0, 0));
+            MovetoLine(new Vector3(positions[(int)currentState], -1.82f, 8));
         }
 
         if(Input.GetKey(KeyCode.D) && !isMoving)
@@ -79,7 +80,7 @@ public class PlayerController : MonoBehaviour
                     break;
             }
             //transform.position = new Vector3(positions[(int)currentState], 0, 0);
-            MovetoLine(new Vector3(positions[(int)currentState], 0, 0));
+            MovetoLine(new Vector3(positions[(int)currentState], -1.82f, 8));
         }  
         
         if(isMoving)
@@ -92,10 +93,13 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-
-        if(Input.GetButtonDown("Jump"))
+        if(Input.GetButtonDown("Fire1"))
         {
-            OnJump.Invoke();
+            OnThrowLeft.Invoke();
+        }
+        if (Input.GetButtonDown("Fire2"))
+        {
+            OnThrowRight.Invoke();
         }
     }
 
