@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PointsScript : MonoBehaviour
+public class PointsScript: MonoBehaviour
 {
 
     public GameObject[] estrelas = new GameObject[5];
@@ -15,11 +15,12 @@ public class PointsScript : MonoBehaviour
         counter = PlayerPrefs.GetInt("stars");
     }
 
-    void Update()
+    /*void Update()
     {
-        //AddEstrela();
-        //SubEstrela();
+        AddEstrela();
+        SubEstrela();
     }
+    */
 
 
     public void AddEstrela()
