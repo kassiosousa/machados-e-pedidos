@@ -11,7 +11,6 @@ public class GameManagerScript : MonoBehaviour
     public bool isMenu = false;
     public GameObject GameOverPanel;
 
-
     public static GameManagerScript instance;
     void Awake()
     {
@@ -47,7 +46,7 @@ public class GameManagerScript : MonoBehaviour
     {
         playerAnimator.SetInteger("Style", 1);
     }
-    private void StartRun()
+    public void StartRun()
     {
         playerAnimator.SetInteger("Style", 0);
     }
@@ -60,7 +59,6 @@ public class GameManagerScript : MonoBehaviour
             GameOverPanel.SetActive(true);
             Time.timeScale = 0;
         }
-
     }
 
     public void Replay()

@@ -6,6 +6,9 @@ TagManager:
   tags:
   - AxeArea
   - Door
+  - Objectin
+  - Objectd
+  - Axe
   layers:
   - Default
   - TransparentFX

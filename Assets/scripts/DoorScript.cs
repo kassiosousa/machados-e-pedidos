@@ -96,8 +96,13 @@ public class DoorScript : MonoBehaviour
         if( Receving == true)
         {
             materialObjeto.color = corEntregue;
-            Received = true;
-            gameManager.pointsScript.AddEstrela();
+            
+            if (!Received)
+            {
+                gameManager.pointsScript.AddEstrela();
+                Received = true;
+            }
+
         }
     }
 }
