@@ -332,6 +332,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 137468171, guid: 3a92f0493fec9b34cb8f76fa1ccf759d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1684702667, guid: 3a92f0493fec9b34cb8f76fa1ccf759d, type: 3}
       propertyPath: m_Controller
       value: 
@@ -2680,7 +2684,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9e86ed8710d6dbb4fa0cc85cc45636d6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 26f082213c8e51a4599d8e72dd5b01b6, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

@@ -11,6 +11,7 @@ public class PointsScript: MonoBehaviour
 
     void Start()
     {
+        PlayerPrefs.SetInt("total_points", 0);
         PlayerPrefs.SetInt("stars", 5);
         counter = PlayerPrefs.GetInt("stars");
     }
@@ -50,6 +51,8 @@ public class PointsScript: MonoBehaviour
 
             counter++;
             PlayerPrefs.SetInt("stars", counter);
+            int points = PlayerPrefs.GetInt("total_points");
+            PlayerPrefs.SetInt("total_points", points+1);
 
         }
     }

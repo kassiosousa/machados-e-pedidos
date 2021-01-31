@@ -31,6 +31,7 @@ public class PlayerDetectCollision : MonoBehaviour
             //Remove ponto por bater em objeto destrutivel
             gameManager.CamShake();
             gameManager.pointsScript.SubEstrela();
+            other.gameObject.SetActive(false);
         }
     }
 

@@ -8,7 +8,6 @@ public class PlayerController : MonoBehaviour
     public float vel;
     private Rigidbody rig;
     
-
     public float[] positions;
 
     private bool isMoving = false;
@@ -17,9 +16,10 @@ public class PlayerController : MonoBehaviour
     public UnityEvent OnThrowLeft;
     public UnityEvent OnThrowRight;
 
-
     // responsavel por guardar o estado atual
     private PositionState currentState;
+
+    public bool IsDead = false;
 
     // lista de inteiros
     public enum PositionState
@@ -41,66 +41,69 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.A) && !isMoving)
-        {
-            // transform.Translate(Vector3.left * Time.deltaTime * vel);
-            switch (currentState)
+        // Se o jogador ainda não morreu
+        if (!IsDead) { 
+            if (Input.GetKey(KeyCode.A) && !isMoving)
             {
-                case PositionState.left:
-                    break;
-                case PositionState.right:
-                    currentState = PositionState.middle;
-                    
-                    // cetar a posição do meio
-                    break;
-                case PositionState.middle:
-                    currentState = PositionState.left;
-                    // posição para a esquerda
-                    break;
-                default:
-                    break;
-            }
-            //transform.position = new Vector3(positions[(int)currentState], 0, 0);
-            MovetoLine(new Vector3(positions[(int)currentState], -1.82f, 8));
-        }
+                // transform.Translate(Vector3.left * Time.deltaTime * vel);
+                switch (currentState)
+                {
+                    case PositionState.left:
+                        break;
+                    case PositionState.right:
+                        currentState = PositionState.middle;
 
-        if(Input.GetKey(KeyCode.D) && !isMoving)
-        {
-            // transform.Translate(Vector3.right * Time.deltaTime * vel);
-            switch (currentState)
-            {
-                case PositionState.left:
-                    currentState = PositionState.middle;
-                    break;
-                case PositionState.right:
-                    break;
-                case PositionState.middle:
-                    currentState = PositionState.right;
-                    break;
-                default:
-                    break;
+                        // cetar a posição do meio
+                        break;
+                    case PositionState.middle:
+                        currentState = PositionState.left;
+                        // posição para a esquerda
+                        break;
+                    default:
+                        break;
+                }
+                //transform.position = new Vector3(positions[(int)currentState], 0, 0);
+                MovetoLine(new Vector3(positions[(int)currentState], -1.82f, 8));
             }
-            //transform.position = new Vector3(positions[(int)currentState], 0, 0);
-            MovetoLine(new Vector3(positions[(int)currentState], -1.82f, 8));
-        }  
-        
-        if(isMoving)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, destination, Time.deltaTime * vel);
-            // distance = esse metodo dis qual a distancia entre dois pontos
-            if (Vector3.Distance(transform.position, destination) < 0.01f)
-            {
-                isMoving = false;
-            }
-        }
 
-        if(Input.GetButtonDown("Fire1"))
-        {
-            OnThrowLeft.Invoke();
-        }
-        if (Input.GetButtonDown("Fire2"))
-        {
-            OnThrowRight.Invoke();
+            if (Input.GetKey(KeyCode.D) && !isMoving)
+            {
+                // transform.Translate(Vector3.right * Time.deltaTime * vel);
+                switch (currentState)
+                {
+                    case PositionState.left:
+                        currentState = PositionState.middle;
+                        break;
+                    case PositionState.right:
+                        break;
+                    case PositionState.middle:
+                        currentState = PositionState.right;
+                        break;
+                    default:
+                        break;
+                }
+                //transform.position = new Vector3(positions[(int)currentState], 0, 0);
+                MovetoLine(new Vector3(positions[(int)currentState], -1.82f, 8));
+            }
+
+            if (isMoving)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, destination, Time.deltaTime * vel);
+                // distance = esse metodo dis qual a distancia entre dois pontos
+                if (Vector3.Distance(transform.position, destination) < 0.01f)
+                {
+                    isMoving = false;
+                }
+            }
+
+            if (Input.GetButtonDown("Fire1"))
+            {
+                OnThrowLeft.Invoke();
+            }
+            if (Input.GetButtonDown("Fire2"))
+            {
+                OnThrowRight.Invoke();
+            }
         }
     }
 

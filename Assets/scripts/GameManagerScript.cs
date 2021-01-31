@@ -1,5 +1,5 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,29 +8,23 @@ public class GameManagerScript : MonoBehaviour
     public PointsScript pointsScript;
     public PlayerController playerController;
     public Animator playerAnimator;
+    public AudioSource playerAudioSource;
     public GameObject GameOverPanel;
+    public GameObject TotalPoints;
 
     public static GameManagerScript instance;
     void Awake()
     {
         if (instance == null) {
+            print("dontdestroy");
             instance = this;
-            DontDestroyOnLoad(this.gameObject);
+            //DontDestroyOnLoad(this.gameObject);
         } else if (instance != this) {
-            Destroy(gameObject);
+            //print("destroy");
+            //Destroy(gameObject);
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     public void SetFallPlayer()
     {
         playerAnimator.SetTrigger("Fall");
@@ -52,6 +46,21 @@ public class GameManagerScript : MonoBehaviour
 
     public void GameOver()
     {
+        TextMeshProUGUI mText = TotalPoints.GetComponent<TextMeshProUGUI>();
+        mText.text = "Points :"+PlayerPrefs.GetInt("total_points").ToString();
+        playerAnimator.SetBool("Death", true);
+        // Desliga o som de caminhada
+        playerAudioSource.Stop();
+        //Trava a movimentação do personagem porque perdeu 
+        playerController.IsDead = true;
+        // Função para esperar a animação de morte antes de morrer de fato
+        StartCoroutine(WaitToDeathCourotine());
+    }
+    IEnumerator WaitToDeathCourotine()
+    {
+        //yield on a new YieldInstruction that waits for 5 seconds.
+        yield return new WaitForSeconds(2);
+        
         GameOverPanel.SetActive(true);
         Time.timeScale = 0;
     }
@@ -67,7 +76,6 @@ public class GameManagerScript : MonoBehaviour
 
     public void CamShake()
     {
-        print("OI");
         this.GetComponent<Shake>().CamShake();
     }
 }
