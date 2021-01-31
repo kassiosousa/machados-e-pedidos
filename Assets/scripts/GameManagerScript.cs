@@ -8,7 +8,6 @@ public class GameManagerScript : MonoBehaviour
     public PointsScript pointsScript;
     public PlayerController playerController;
     public Animator playerAnimator;
-    public bool isMenu = false;
     public GameObject GameOverPanel;
 
     public static GameManagerScript instance;
@@ -25,7 +24,6 @@ public class GameManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (isMenu) { SetDance(); } else { StartRun(); }
     }
 
     // Update is called once per frame
@@ -41,14 +39,6 @@ public class GameManagerScript : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(1);
-    }
-    private void SetDance()
-    {
-        playerAnimator.SetInteger("Style", 1);
-    }
-    public void StartRun()
-    {
-        playerAnimator.SetInteger("Style", 0);
     }
 
     public void VerifyGameOver()
