@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class pointsScript : MonoBehaviour
+public class PointsScript: MonoBehaviour
 {
 
     public GameObject[] estrelas = new GameObject[5];
@@ -11,15 +11,16 @@ public class pointsScript : MonoBehaviour
 
     void Start()
     {
-        PlayerPrefs.SetInt("estrelas", 5);
-        counter = PlayerPrefs.GetInt("estrelas");
+        PlayerPrefs.SetInt("stars", 5);
+        counter = PlayerPrefs.GetInt("stars");
     }
 
-    void Update()
+    /*void Update()
     {
-        //AddEstrela();
-        //SubEstrela();
+        AddEstrela();
+        SubEstrela();
     }
+    */
 
 
     public void AddEstrela()
@@ -48,7 +49,7 @@ public class pointsScript : MonoBehaviour
             }
 
             counter++;
-            PlayerPrefs.SetInt("estrelas", counter);
+            PlayerPrefs.SetInt("stars", counter);
 
         }
     }
@@ -80,7 +81,7 @@ public class pointsScript : MonoBehaviour
                     break;
             }
             counter--;
-            PlayerPrefs.SetInt("estrelas", counter);
+            PlayerPrefs.SetInt("stars", counter);
             
         }
     }
