@@ -18,9 +18,13 @@ public class DoorScript : MonoBehaviour
     private bool isInteractable;
     // flag usada para saber se pode receber o pedido
     private bool Receving = false;
+
+
+
     // flag usada para saber se a porta foi acertada
     private bool Received = false;
     private GameManagerScript gameManager;
+
 
     // Variavel responsavel por cetar o objeto
     Material materialObjeto;

@@ -17,6 +17,9 @@ public class PlayerController : MonoBehaviour
     public UnityEvent OnThrowLeft;
     public UnityEvent OnThrowRight;
 
+    private Shake shake;
+
+
     // responsavel por guardar o estado atual
     private PositionState currentState;
 
@@ -34,6 +37,9 @@ public class PlayerController : MonoBehaviour
     {
         rig = GetComponent<Rigidbody>();
         currentState = PositionState.middle;
+
+        shake = GameObject.FindGameObjectWithTag("screenshake").GetComponent<Shake>();
+      
         
     }
 
@@ -108,6 +114,15 @@ public class PlayerController : MonoBehaviour
         destination = dest;
         isMoving = true;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "obstaculo")
+        {
+            shake.CamShake();
+        }
+    }
+
 }
 
 

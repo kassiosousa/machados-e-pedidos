@@ -6,9 +6,14 @@ TagManager:
   tags:
   - AxeArea
   - Door
+<<<<<<< HEAD
+  - screenshake
+  - obstaculo
+=======
   - Objectin
   - Objectd
   - Axe
+>>>>>>> ba07cd9d586bbeedc964ce8a592e6f75036dbc1d
   layers:
   - Default
   - TransparentFX
