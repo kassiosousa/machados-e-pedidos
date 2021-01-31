@@ -64,4 +64,10 @@ public class GameManagerScript : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
+    public void CamShake()
+    {
+        print("OI");
+        this.GetComponent<Shake>().CamShake();
+    }
 }

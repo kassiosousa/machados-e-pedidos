@@ -22,7 +22,7 @@ public class Chao : MonoBehaviour
         transform.Translate(vel * Time.deltaTime);
         if (transform.position.z < limitReposition)
         {
-            float repos = 120.0f - (limitReposition - transform.position.z);
+            float repos = 250.0f - (limitReposition - transform.position.z);
             transform.position = new Vector3(0.0f, altura, repos);
             OnReset.Invoke();
         }

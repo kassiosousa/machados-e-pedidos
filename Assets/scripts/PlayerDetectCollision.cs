@@ -19,19 +19,17 @@ public class PlayerDetectCollision : MonoBehaviour
         
     }
 
-    public void OnCollisionEnter(Collision obj)
+    public void OnTriggerEnter(Collider other)
     {
-        print("=============>");
-        if (obj.gameObject.CompareTag("Objectin"))
+        if (other.gameObject.CompareTag("Objectin"))
         {
             //Gameover por bater em objeto indestrutivel
-            print("IN");
             gameManager.GameOver();
         }
-        else if (obj.gameObject.CompareTag("Objectd"))
+        else if (other.gameObject.CompareTag("Objectd"))
         {
             //Remove ponto por bater em objeto destrutivel
-            print("DE");
+            gameManager.CamShake();
             gameManager.pointsScript.SubEstrela();
         }
     }
