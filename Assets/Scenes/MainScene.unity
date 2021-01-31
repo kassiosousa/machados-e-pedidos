@@ -843,7 +843,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -1343,7 +1343,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -4498,7 +4498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -4917,7 +4917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -6234,7 +6234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -6804,7 +6804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -9004,7 +9004,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -9709,7 +9709,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -11560,7 +11560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -14223,7 +14223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -14282,7 +14282,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -17024,7 +17024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -23856,7 +23856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -24059,7 +24059,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 0, y: 0, z: 0}
+  vel: {x: 0, y: 0, z: -20}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -25478,7 +25478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -25970,7 +25970,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -27469,7 +27469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -27888,7 +27888,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -29002,7 +29002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -29068,7 +29068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -30646,7 +30646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -31963,7 +31963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -33318,7 +33318,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -33451,7 +33451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -34479,7 +34479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -34601,7 +34601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -35127,7 +35127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -36117,7 +36117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -39394,7 +39394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
@@ -39860,7 +39860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c17fb9780be26240a1c348493acc421, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: {x: 10, y: 0, z: 0}
+  vel: {x: 20, y: 0, z: 0}
   altura: 0
   limitReposition: -20
   OnReset:
