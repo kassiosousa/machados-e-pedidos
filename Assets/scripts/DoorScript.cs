@@ -4,24 +4,12 @@ using UnityEngine;
 
 public class DoorScript : MonoBehaviour
 {
-
-    // Status da porta
-    // Nada = Continua transparente
-    // Aguardando = Fica amarela
-    // Pronta = Fica azul
-    // Acertada = fica verde por 4 seg
-
-    // Tag da area do machado = AxeArea
-    // Tag da porta = Door
-
     // lista de cores
     public Color corPadrao = Color.white;
     public Color corAguardando = Color.yellow;
     public Color CorPronto = Color.blue;
     public Color corEntregue = Color.green;
     public Color corErro = Color.red;
-    public bool isRight = false;
-    public bool isLeft = false;
 
     [Range(0,1)]
     // Propabilidade de interação da porta(porcentagem entre 0/1)
@@ -55,7 +43,7 @@ public class DoorScript : MonoBehaviour
     {
         if (collision.tag == "AxeArea" && isInteractable)
         {
-            Debug.Log("Trocou de cor");
+            //Debug.Log("Trocou de cor");
             materialObjeto.color = CorPronto;
             Receving = true;
         }
@@ -65,8 +53,8 @@ public class DoorScript : MonoBehaviour
     {
         if (collision.tag == "AxeArea" && isInteractable && !Received)
         {
-            Debug.Log("Porta saiu da área sem ser acertada");
-            Debug.Log("Trocou de cor");
+            //Debug.Log("Porta saiu da área sem ser acertada");
+            //Debug.Log("Trocou de cor");
             materialObjeto.color = corErro;
             Receving = false;
             // Remove 1 estrela do jogador

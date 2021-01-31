@@ -1030,8 +1030,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &66903111
 Rigidbody:
@@ -1756,166 +1754,166 @@ MonoBehaviour:
   OnThrowLeft:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1758206310}
-        m_MethodName: 
+      - m_Target: {fileID: 1758206311}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 734323602}
-        m_MethodName: 
+      - m_Target: {fileID: 734323603}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 466703791}
-        m_MethodName: 
+      - m_Target: {fileID: 466703793}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2919884404285608659}
-        m_MethodName: 
+      - m_Target: {fileID: 2919884404285608653}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1060932473}
-        m_MethodName: 
+      - m_Target: {fileID: 1060932475}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 951741204}
-        m_MethodName: 
+      - m_Target: {fileID: 951741206}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 338159523}
-        m_MethodName: 
+      - m_Target: {fileID: 338159525}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1259092347}
-        m_MethodName: 
+      - m_Target: {fileID: 1259092349}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1414690275}
-        m_MethodName: 
+      - m_Target: {fileID: 1414690276}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1650908587}
-        m_MethodName: 
+      - m_Target: {fileID: 1650908588}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1863920983}
-        m_MethodName: 
+      - m_Target: {fileID: 1863920985}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 888312002}
-        m_MethodName: 
+      - m_Target: {fileID: 888312004}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1481589332}
-        m_MethodName: 
+      - m_Target: {fileID: 1481589334}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1068662539}
-        m_MethodName: 
+      - m_Target: {fileID: 1068662541}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 271496270}
-        m_MethodName: 
+      - m_Target: {fileID: 271496272}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1924,166 +1922,166 @@ MonoBehaviour:
   OnThrowRight:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1941787700}
-        m_MethodName: 
+      - m_Target: {fileID: 1941787701}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1836627524}
-        m_MethodName: 
+      - m_Target: {fileID: 1836627525}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 781618665}
-        m_MethodName: 
+      - m_Target: {fileID: 781618667}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 294469479}
-        m_MethodName: 
+      - m_Target: {fileID: 294469481}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 356930746}
-        m_MethodName: 
+      - m_Target: {fileID: 356930748}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 973393242}
-        m_MethodName: 
+      - m_Target: {fileID: 973393244}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1344239419}
-        m_MethodName: 
+      - m_Target: {fileID: 1344239421}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 929309078}
-        m_MethodName: 
+      - m_Target: {fileID: 929309080}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 896643670}
-        m_MethodName: 
+      - m_Target: {fileID: 896643671}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1297186515}
-        m_MethodName: 
+      - m_Target: {fileID: 1297186516}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 66903108}
-        m_MethodName: 
+      - m_Target: {fileID: 66903110}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 611769881}
-        m_MethodName: 
+      - m_Target: {fileID: 611769883}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1585871713}
-        m_MethodName: 
+      - m_Target: {fileID: 1585871715}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1186290701}
-        m_MethodName: 
+      - m_Target: {fileID: 1186290703}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1761465608}
-        m_MethodName: 
+      - m_Target: {fileID: 1761465610}
+        m_MethodName: CheckDelivery
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2185,6 +2183,31 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &137468170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137468167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03de71a03c8be9343b9c0a00ad67aff3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &137468171
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137468167}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.4153099, y: 2.184441, z: 1}
+  m_Center: {x: -0.007516265, y: 0.59222054, z: 0}
 --- !u!1001 &139137783
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3811,8 +3834,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &271496273
 Rigidbody:
@@ -4205,8 +4226,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &294469482
 Rigidbody:
@@ -4965,12 +4984,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd0c560960a4aac4dbdf62db08be8a41, type: 3}
---- !u!1 &338159523 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6666381386000339938, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
+--- !u!114 &338159525 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6666381386000339964, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
     type: 3}
   m_PrefabInstance: {fileID: 1850258357}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &342811509
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5149,8 +5174,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &356930749
 Rigidbody:
@@ -6943,8 +6966,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &466703794
 Rigidbody:
@@ -8221,8 +8242,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &611769884
 Rigidbody:
@@ -9586,12 +9605,18 @@ Transform:
   m_Father: {fileID: 1232796143}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &734323602 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6666381386000339938, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
+--- !u!114 &734323603 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6666381386000339964, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
     type: 3}
   m_PrefabInstance: {fileID: 1469584782}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &742512198
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9667,6 +9692,25 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 742512198}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &749128052 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 118826, guid: 6ac8d1fd5805e304c9a61f3099fce3ba,
+    type: 3}
+  m_PrefabInstance: {fileID: 1999008084}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &749128053
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749128052}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4649192, y: 8.885559, z: 2.884001}
+  m_Center: {x: -0.51551676, y: 4.3777084, z: 0.79709035}
 --- !u!1001 &749920121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9913,8 +9957,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &781618668
 Rigidbody:
@@ -11500,6 +11542,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SA_Prop_UteBroken_03
       objectReference: {fileID: 0}
+    - target: {fileID: 132626, guid: b70f7281c4e83694ba1f518592bab5da, type: 3}
+      propertyPath: m_TagString
+      value: Objectin
+      objectReference: {fileID: 0}
     - target: {fileID: 478300, guid: b70f7281c4e83694ba1f518592bab5da, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -11714,8 +11760,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &888312005
 Rigidbody:
@@ -11868,12 +11912,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4aca82b3eac5a94789604361eba1c01, type: 3}
---- !u!1 &896643670 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6666381386000339938, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
+--- !u!114 &896643671 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6666381386000339964, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
     type: 3}
   m_PrefabInstance: {fileID: 474468359}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &906966894
 GameObject:
   m_ObjectHideFlags: 0
@@ -12367,8 +12417,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &929309081
 Rigidbody:
@@ -12950,12 +12998,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ff7f705d790596449e465a0fc6375b7, type: 3}
---- !u!1 &951741204 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6666381386000339938, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
+--- !u!114 &951741206 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6666381386000339964, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
     type: 3}
   m_PrefabInstance: {fileID: 140881789}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &957108616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13266,8 +13320,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &973393245
 Rigidbody:
@@ -14178,8 +14230,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &1060932476
 Rigidbody:
@@ -14257,12 +14307,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1060932473}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1068662539 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6666381386000339938, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
+--- !u!114 &1068662541 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6666381386000339964, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
     type: 3}
   m_PrefabInstance: {fileID: 1405325885}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1076525391 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 435102, guid: bd0c560960a4aac4dbdf62db08be8a41,
@@ -15579,8 +15635,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &1186290704
 Rigidbody:
@@ -16312,12 +16366,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7ff7f705d790596449e465a0fc6375b7, type: 3}
---- !u!1 &1259092347 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6666381386000339938, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
+--- !u!114 &1259092349 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6666381386000339964, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
     type: 3}
   m_PrefabInstance: {fileID: 1401223124}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1279260107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16494,12 +16554,18 @@ MonoBehaviour:
   OnReset:
     m_PersistentCalls:
       m_Calls: []
---- !u!1 &1297186515 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6666381386000339938, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
+--- !u!114 &1297186516 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6666381386000339964, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
     type: 3}
   m_PrefabInstance: {fileID: 195013378}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1300784641
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17128,8 +17194,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &1344239422
 Rigidbody:
@@ -18158,12 +18222,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 658394089}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1414690275 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6666381386000339938, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
+--- !u!114 &1414690276 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6666381386000339964, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
     type: 3}
   m_PrefabInstance: {fileID: 817922728}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1416146955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19255,12 +19325,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1480133911}
   m_CullTransparentMesh: 0
---- !u!1 &1481589332 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6666381386000339938, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
+--- !u!114 &1481589334 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6666381386000339964, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
     type: 3}
   m_PrefabInstance: {fileID: 194963381}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1487244191
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19867,8 +19943,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &1585871716
 Rigidbody:
@@ -21116,12 +21190,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e235f5bdeb8c6994da77783570d34bf1, type: 3}
---- !u!1 &1650908587 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6666381386000339938, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
+--- !u!114 &1650908588 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6666381386000339964, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
     type: 3}
   m_PrefabInstance: {fileID: 866836229}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1651293821 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 435102, guid: bd0c560960a4aac4dbdf62db08be8a41,
@@ -22449,12 +22529,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd0c560960a4aac4dbdf62db08be8a41, type: 3}
---- !u!1 &1758206310 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6666381386000339938, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
+--- !u!114 &1758206311 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6666381386000339964, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
     type: 3}
   m_PrefabInstance: {fileID: 1863480812}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1761465608
 GameObject:
   m_ObjectHideFlags: 0
@@ -22507,8 +22593,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &1761465611
 Rigidbody:
@@ -23205,12 +23289,18 @@ Transform:
   m_Father: {fileID: 275707146}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 35, y: 0, z: 0}
---- !u!1 &1836627524 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6666381386000339938, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
+--- !u!114 &1836627525 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6666381386000339964, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
     type: 3}
   m_PrefabInstance: {fileID: 2015025135}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1839576042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23675,8 +23765,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &1863920986
 Rigidbody:
@@ -24887,12 +24975,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1938781204}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1941787700 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6666381386000339938, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
+--- !u!114 &1941787701 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6666381386000339964, guid: 38e0c10729ec70e4985a29e18c7b5cd3,
     type: 3}
   m_PrefabInstance: {fileID: 324579507}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9b215e9867a78a4ca82a72e62226a9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1951205839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25476,6 +25570,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SA_Prop_TreeDead_04
       objectReference: {fileID: 0}
+    - target: {fileID: 118826, guid: 6ac8d1fd5805e304c9a61f3099fce3ba, type: 3}
+      propertyPath: m_TagString
+      value: Objectd
+      objectReference: {fileID: 0}
     - target: {fileID: 446966, guid: 6ac8d1fd5805e304c9a61f3099fce3ba, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -25532,7 +25630,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64602641634359250, guid: 6ac8d1fd5805e304c9a61f3099fce3ba, type: 3}
+    - {fileID: 64624943413397290, guid: 6ac8d1fd5805e304c9a61f3099fce3ba, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6ac8d1fd5805e304c9a61f3099fce3ba, type: 3}
 --- !u!4 &1999008085 stripped
 Transform:
@@ -26971,8 +27071,6 @@ MonoBehaviour:
   CorPronto: {r: 0, g: 0, b: 1, a: 1}
   corEntregue: {r: 0, g: 1, b: 0, a: 1}
   corErro: {r: 1, g: 0, b: 0, a: 1}
-  isRight: 0
-  isLeft: 0
   InteractionPossibity: 0.25
 --- !u!54 &2919884404285608654
 Rigidbody:

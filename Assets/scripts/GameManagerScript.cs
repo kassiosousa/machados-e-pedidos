@@ -46,9 +46,14 @@ public class GameManagerScript : MonoBehaviour
         int stars = PlayerPrefs.GetInt("stars");
         if (stars==0)
         {
-            GameOverPanel.SetActive(true);
-            Time.timeScale = 0;
+            GameOver();
         }
+    }
+
+    public void GameOver()
+    {
+        GameOverPanel.SetActive(true);
+        Time.timeScale = 0;
     }
 
     public void Replay()

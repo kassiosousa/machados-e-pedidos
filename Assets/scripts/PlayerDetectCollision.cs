@@ -6,10 +6,11 @@ using UnityEngine;
 public class PlayerDetectCollision : MonoBehaviour
 {
 
+    private GameManagerScript gameManager;
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameManager = GameManagerScript.instance;
     }
 
     // Update is called once per frame
@@ -18,29 +19,21 @@ public class PlayerDetectCollision : MonoBehaviour
         
     }
 
-
     public void OnCollisionEnter(Collision obj)
     {
+        print("=============>");
         if (obj.gameObject.CompareTag("Objectin"))
         {
-            GameOverPoints();
+            //Gameover por bater em objeto indestrutivel
+            print("IN");
+            gameManager.GameOver();
         }
         else if (obj.gameObject.CompareTag("Objectd"))
         {
-            RemovePoints();
+            //Remove ponto por bater em objeto destrutivel
+            print("DE");
+            gameManager.pointsScript.SubEstrela();
         }
-    }
-
-
-    public void GameOverPoints()
-    {
-       Debug.Log("Colisao!!");
-    }
-
-
-    public void RemovePoints()
-    {
-        //TODO
     }
 
 }
