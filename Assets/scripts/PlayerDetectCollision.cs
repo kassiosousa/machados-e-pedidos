@@ -24,7 +24,7 @@ public class PlayerDetectCollision : MonoBehaviour
         if (other.gameObject.CompareTag("Objectin"))
         {
             //Gameover por bater em objeto indestrutivel
-            gameManager.GameOver();
+            gameManager.GameOver("Esbarrou em algo");
         }
         else if (other.gameObject.CompareTag("Objectd"))
         {
