@@ -11,6 +11,7 @@ public class GameManagerScript : MonoBehaviour
     public AudioSource playerAudioSource;
     public GameObject GameOverPanel;
     public GameObject TotalPoints;
+    public GameObject GameOverMotivation;
 
     public static GameManagerScript instance;
     void Awake()
@@ -24,30 +25,34 @@ public class GameManagerScript : MonoBehaviour
             //Destroy(gameObject);
         }
     }
+    public void StartGame()
+    {
+        PlayerPrefs.SetInt("stars", 5);
+        SceneManager.LoadScene(1);
+    }
 
     public void SetFallPlayer()
     {
         playerAnimator.SetTrigger("Fall");
     }
 
-    public void StartGame()
-    {
-        SceneManager.LoadScene(1);
-    }
 
     public void VerifyGameOver()
     {
         int stars = PlayerPrefs.GetInt("stars");
         if (stars==0)
         {
-            GameOver();
+            GameOver("Expulso do Aplicativo");
         }
     }
 
-    public void GameOver()
+    public void GameOver(string Motivation)
     {
-        TextMeshProUGUI mText = TotalPoints.GetComponent<TextMeshProUGUI>();
-        mText.text = "Points :"+PlayerPrefs.GetInt("total_points").ToString();
+        TextMeshProUGUI pText = TotalPoints.GetComponent<TextMeshProUGUI>();
+        TextMeshProUGUI mText = GameOverMotivation.GetComponent<TextMeshProUGUI>();
+        pText.text = "Points: "+PlayerPrefs.GetInt("total_points").ToString();
+        mText.text = Motivation;
+        
         playerAnimator.SetBool("Death", true);
         // Desliga o som de caminhada
         playerAudioSource.Stop();
